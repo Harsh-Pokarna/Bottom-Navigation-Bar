@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:textSize="30dp"/>
+
+    <TextView
+         android:layout_marginTop="10dp"
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Upload A Video"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/ic_baseline_file_upload_24"/>
+
+    <TextView
+        android:id="@+id/create_short"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Create a Short"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/ic_baseline_photo_camera_24"/>
+    <TextView
+        android:id="@+id/go_live"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Go Live"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/ic_baseline_live_tv_24"/>
+
+</LinearLayout>

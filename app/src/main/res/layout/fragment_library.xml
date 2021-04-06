@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibraryFragment">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/history"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv"
+        android:padding="4dp"
+        android:gravity="center_vertical"
+        android:text="   HISTORY"
+        android:drawableStart="@drawable/ic_history"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/yourvideos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/history"
+        android:padding="4dp"
+        android:gravity="center_vertical"
+        android:text="   YOUR VIDEOS"
+        android:drawableStart="@drawable/ic_video"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/downloads"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/yourvideos"
+        android:padding="4dp"
+        android:gravity="center_vertical"
+        android:text="   DOWNLOADS"
+        android:drawableStart="@drawable/ic_baseline_download_24"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/yourmovies"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/downloads"
+        android:padding="4dp"
+        android:gravity="center_vertical"
+        android:text="   YOUR MOVIES"
+        android:drawableStart="@drawable/ic_baseline_local_movies_24"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/watchlater"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/yourmovies"
+        android:padding="4dp"
+        android:gravity="center_vertical"
+        android:text="   WATCH LATER"
+        android:drawableStart="@drawable/ic_baseline_watch_later_24"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/likedvideos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/watchlater"
+        android:padding="4dp"
+        android:gravity="center_vertical"
+        android:text="   LIKED VIDEOS"
+        android:drawableStart="@drawable/ic_baseline_thumb_up_24"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/playlist"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/likedvideos"
+        android:padding="4dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:text="Playlists: "
+        android:textSize="20sp"
+        />
+
+
+</RelativeLayout>
